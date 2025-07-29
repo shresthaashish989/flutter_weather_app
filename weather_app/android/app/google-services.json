@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "913428755218",
+    "project_id": "flutter-weather-app-11738",
+    "storage_bucket": "flutter-weather-app-11738.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913428755218:android:99b1548bee65ce3986f9cb",
+        "android_client_info": {
+          "package_name": "com.example.weather_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB77ELg3UcpHwt3rVVEGaIeG9EEG-iGQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
