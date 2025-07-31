@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 import 'screens/login_screen.dart';
+import 'screens/register_screen.dart';
+import 'screens/weather_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -19,7 +21,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Weather App',
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(),
+      initialRoute: '/login', // Set initial screen here
+      routes: {
+        '/login': (context) => const LoginScreen(),
+        '/register': (context) => const RegisterScreen(),
+        '/weather': (context) => const WeatherScreen(),
+      },
     );
   }
 }
